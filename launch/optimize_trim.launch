@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="optimize_trim" name="optimize_trim_file" type="optimize_trim_file" output="screen" >
+	</node>
+</launch>

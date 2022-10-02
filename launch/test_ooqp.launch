@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="optimize_trim" name="test_ooqp" type="test_ooqp" output="screen">
+	</node>
+</launch>
