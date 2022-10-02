@@ -1,4 +1,9 @@
 # Minimum-snap
+# Version: First Version			Date: 2022.10.02
+# Author: Zheng Jiashuo
+Files in src folder need to be optimized.
+In optimizing trajectory curve,trim_point.cpp that could get trajectory points is main file.You should browse it carefully.About OoqpOptimize.cpp which includes Ooqp library,if you want to read,I hope you can learn Ooqp firstly.bezier_curve.cpp include the math method that Bezier curve.subCoeff.cpp's main function is subscribing topic named "curve_coef_arr".optimize_trim.cpp's main function is calculating the coffeicient of curve and publishing topic named "curve_coef_arr".
+-------------------------------------------------------------------
 Optimized trajectory curve
 Download source code.
 If you want to use this project,just follow follow the steps below.
@@ -14,4 +19,3 @@ If you want to use this project,just follow follow the steps below.
 In your terminal,you could find the result of curve's coefficient optimized by minimum snap.
 You need to pay attention to the following points!!!
 The file eigen2ros.msg in msg/ is created by yourself.You could get it by browsing my website which is https://blog.csdn.net/er_dan_love/article/details/124794614.In section 2.1,it was introduced how to create an own message type.
-
