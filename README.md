@@ -1,7 +1,7 @@
 # Minimum-snap
 ------------------------------------------------------------------------------------
-# Version: First Version			Date: 2022.10.02
-# Author: Zheng Jiashuo
+ Version: First Version			Date: 2022.10.02
+ Author: Zheng Jiashuo
 Files in src folder need to be optimized.
 In optimizing trajectory curve,trim_point.cpp that could get trajectory points is main file.You should browse it carefully.About OoqpOptimize.cpp which includes Ooqp library,if you want to read,I hope you can learn Ooqp firstly.bezier_curve.cpp include the math method that Bezier curve.subCoeff.cpp's main function is subscribing topic named "curve_coef_arr".optimize_trim.cpp's main function is calculating the coffeicient of curve and publishing topic named "curve_coef_arr".
 Optimized trajectory curve
